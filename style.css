@@ -7,7 +7,7 @@
 
 /* Basic styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
 
@@ -15,6 +15,10 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px;
+}
+
+nav {
+  text-align: center;
 }
 
 nav ul {
@@ -54,8 +58,10 @@ footer p {
 
 /* Additional custom styles specific to your band */
 h1 {
-  font-size: 30px;
+  font-family: 'Foldit', cursive;
+  font-size: 130px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 h2 {
@@ -66,6 +72,15 @@ h2 {
 p {
   font-size: 16px;
   margin-bottom: 15px;
+}
+
+.icon {
+  height: 30px;
+  width: auto;
+}
+
+a {
+  
 }
 
 /* Add more CSS rules as per your requirements */
